@@ -1,0 +1,155 @@
+.hero {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 15%;
+  position: relative;
+}
+
+.box {
+  outline-offset: 5px solid green;
+  background-color: #6e091f;
+  height: 400px;
+  width: 40%;
+  position: relative;
+  z-index: -1;
+  right: 100px;
+}
+
+.text {
+  width: 60%;
+}
+
+.text h1 {
+  font-size: 50px;
+}
+
+.text a {
+  color: black;
+}
+
+img {
+  height: 60vh;
+  width: 70vh;
+}
+
+.footer {
+  padding: 10%;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+form input {
+  width: 49%;
+  border: none;
+  border-bottom: 1px solid blue;
+  padding: 12px 0;
+}
+
+form textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: 1px solid blue;
+  justify-items: flex-end;
+  color: brown;
+  margin-top: 10px;
+}
+
+.bg {
+  background-image: url("./kings.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10%;
+}
+
+.bg .txt {
+  text-align: center;
+  background-color: maroon;
+  color: #fff;
+  padding: 10%;
+  border-radius: 5px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px 0;
+  padding: 0 10%;
+}
+
+.sass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sass .one h2 {
+  font-size: 50px;
+}
+
+.sass .one button {
+  background-color: maroon;
+}
+
+.sass .two a {
+  font-style: italic;
+}
+
+.sass .two p {
+  color: black;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+a {
+  @m;
+}
+/*# sourceMappingURL=style.css.map */
